@@ -43,6 +43,7 @@ text = "Printer Presets"
 "Elegoo Neptune 4 Max" = [420, 420]
 "Elegoo Centauri Carbon" = [256, 256]
 
+[model.param-metadata.BASEPLATE_DIMENSIONS]
 [model.param-metadata.solid_base]
 help-link = "https://github.com/yawkat/GridFlock/blob/main/README.md#solid-base"
 [model.param-metadata.bottom_chamfer]
