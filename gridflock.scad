@@ -2,6 +2,8 @@ include <gridfinity-rebuilt-openscad/src/core/gridfinity-baseplate.scad>
 use <gridfinity-rebuilt-openscad/src/helpers/list.scad>
 include <paths/puzzle.scad>
 
+BASEPLATE_DIMENSIONS = [42, 42];
+
 // The size of the grid plate to generate
 plate_size = [371, 254];
 // The bed size of the printer, e.g. 250x220 for the Prusa Core One

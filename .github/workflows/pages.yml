@@ -48,9 +48,9 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         id: cf_publish
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_KEY }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy out/ --project-name=gridflock-yawk-at
+          command: pages deploy out/ --project-name=gridflock
       - name: Check PR
         uses: 8BitJonny/gh-get-current-pr@4.0.0
         id: pr
